@@ -10,7 +10,11 @@ export default function Footer() {
       }}
     >
       <p style={{ margin: 0 }}>
-        © 2025 NeoHive Technologies. All rights reserved.
+        © 2025
+        <a href="mailto:neohive.technologies@neohive.in">
+          NeoHive Technologies
+        </a>{" "}
+        . All rights reserved.
       </p>
     </footer>
   );
